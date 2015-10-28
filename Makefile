@@ -21,8 +21,8 @@ CFLAGS=-Wall -std=c99 -pedantic -mtune=native -march=native -Os
 OBJ_SHELL=shell/shell.o shell/parse.o
 SRC_SHELL=shell/shell.c shell/parse.c
 OBJ_CP=utils/cp/cp.o
-OBJ_COMMON=common/fs.o common/init.o
-SRC_COMMON=common/fs.c common/init.c
+OBJ_SHARED=shared/fs.o shared/init.o
+SRC_SHARED=shared/fs.c shared/init.c
 SRC_CP=utils/cp/cp.c
 OBJ_MV=utils/mv/mv.o
 SRC_MV=utils/mv/mv.c
