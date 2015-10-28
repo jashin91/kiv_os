@@ -42,6 +42,10 @@ $(OBJ_SHELL): $(SRC_SHELL)
 $(OBJ_CP): $(SRC_CP)
 	@echo -e "\n\n"
 	$(CC) -c $(CFLAGS) $*.c -o $@
+	@echo -e "\n/\n"
+$(OBJ_COMMON): $(SRC_COMMON)
+	@echo -e "\n\n"
+	$(CC) -c $(CFLAGS) $*.c -o $@
 	@echo -e "\n/\n"	
 $(OBJ_MV): $(SRC_MV)
 	@echo -e "\n\n"
