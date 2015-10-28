@@ -1,2 +1,0 @@
-# kiv_os
-semestralka
